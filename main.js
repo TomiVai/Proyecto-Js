@@ -1,8 +1,12 @@
-function operador() {
+function main() {
     let NombreDeUsuario = prompt("ingrese su nombre")
     
     alert("hola " + NombreDeUsuario)
+    
+    alert("En que puedo ayudarte?, puedo ofrecerte las siguientes opciones")
 
+    alert("Puedo consultar tu estado de animo, si quieres que haga esto ingresa: preguntame como estoy. Puedo preguntarte tu edad, para lo que necesito que ingreses: preguntame mi edad. Por otro lado puedo hacerte un calculo de intereses de un supuesto prestamo, en base a la cantidad de cuotas del mismo y el monto que vas a solicitar, para lo que necesito que ingreses: calcula cuanto pagaria de interes. Y por ultimo puedo ofrecerte hacer calculos de factoriales del numero que elijas para lo que necesito que ingreses: hazme un factorial")
+    
     let Consigna = prompt("que quieres que haga por ti?").toLowerCase();
 
     if (Consigna == "preguntame como estoy") {
@@ -61,7 +65,5 @@ function operador() {
     }
 }
 
-operador();
-
-// Calculadora de factoriales
+main();
       
